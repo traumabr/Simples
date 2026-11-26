@@ -70,7 +70,7 @@ header{
   background-color: #f7f3f4;
   background-image: linear-gradient(to bottom, #3a3838, #fcfcfc);
   color: #faf5f5;
-  text-align: ;
+  text-align: center;
 }
 
 #secao_3_1{
@@ -213,7 +213,7 @@ header{
 
   #titulo_4_1, #titulo_4_2, #titulo_4_3{
 
-    font-size: ;
+    font-size: 5vw;
     margin-bottom: 20px;
   }
 
