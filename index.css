@@ -1,19 +1,45 @@
-h1{
-    color: blue;
-    background-color: yellow;
+#paragrafo1{
+
+font-size: 1.5em;
+color: crimson;
+font-family: "Arial";
+text-align: center;
+text-transform: capitalize;
+
 }
 
-h2{
-    color: red;
-    background-color: gray;
+#paragrafo2{
+
+font-size: 1.7em;
+color: brown;
+font-family: "Courier New";
+text-align: left;
+text-transform: uppercase;
+
 }
 
-h3{
-    color: yellow;
-    background-color: brown;
+#paragrafo3{
+
+font-size: 1.9em;
+color: orchid;
+font-family: "Verdana";
+text-align: right;
+text-transform: lowercase;
+
 }
 
-p{
-    color: gray;
-    background-color: magenta;
+#regua1{
+
+    border: solid blue;
+}
+
+#regua2{
+
+    border: dotted orange;
+}
+
+#regua3{
+
+    border: dashed crimson;
+
 }

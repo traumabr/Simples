@@ -1,0 +1,240 @@
+body{
+
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+
+  background-color: #e6e5e5;
+}
+
+#titulo{
+
+  margin: 0px;
+  text-align:center ;
+}
+
+#secao_1{
+
+  align-items: center;
+  background-color: #ebedf1;
+  background-image: linear-gradient(to bottom, #ebedf1, #3a3838);
+  color: #fff9f9;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+#titulo_2{
+
+  font-size:3.0vw ;
+}
+
+#img1{
+
+  border-radius:50px ;
+  box-shadow: 2px 2px 20px 5px rgb(192, 187, 187);
+  width: 100%;
+  height: auto;
+}
+
+#secao_2{
+
+  align-items: center;
+  background-color: #3a3838;
+  background-image: linear-gradient(to bottom, #3a3838, #3a3838);
+  color: #fdfafa;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+#img2{
+
+  border-radius: 50px;
+  box-shadow: 2px 2px 20px 2px rgb(240, 230, 230);
+  width: 100%;
+  height: auto;
+}
+
+#titulo_3{
+
+  text-align:center ;
+  font-size: 3.0vw;
+}
+
+#secao_3{
+
+  background-color: #f7f3f4;
+  background-image: linear-gradient(to bottom, #3a3838, #fcfcfc);
+  color: #faf5f5;
+  text-align: ;
+}
+
+#secao_3_1{
+
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+#titulo_4{
+
+  font-size:3.0vw ;
+  margin: 0;
+}
+
+#titulo_4_1, #titulo_4_2, #titulo_4_3{
+
+  font-size: 2.0vw;
+  margin: 0px;
+}
+
+#img3{
+
+  border-radius:50px ;
+  box-shadow: 2px 2px 20px 2px rgb(12, 11, 11);
+  width: 100%;
+  height: auto;
+}
+
+#secao_4{
+
+  display: flex;
+  justify-content: center;
+}
+
+#img4{
+
+  border-radius:50px ;
+  box-shadow: 2px 2px 20px 2px rgb(15, 15, 15);
+  width: 100%;
+  height: auto;
+}
+
+#menu_secundario{
+
+  display: flex;
+  justify-content:space-evenly ;
+}
+
+#secao_5{
+
+  align-items: center;
+  color: #050505;
+  display: flex;
+  flex-direction:column ;
+  margin: 0px;
+}
+
+#secao_6{
+
+  align-items: center;
+  color: #0a0505;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+#titulo_5, #titulo_6{
+
+  font-size:2.0vw ;
+}
+
+#p1{
+
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+#p2, #p3, #p4, #p5, #p6, #p7{
+
+  font-size: 1.0vw;
+}
+/* Daqui para baixo é o uso de media query, que é responsável por otimizar a exibição para tamanhos de telas diferentes */
+
+/* Tela com largura de até 440 pixels (iphone 14/15/16/17/18 PRO MAX) quando o aparelho está na vertical / portrait */
+
+/* Não serão mudadas todas as características, somentes aquelas influenciadas pelo tamanho da tela */
+
+
+@media screen and (max-width: 440px) and (orientation: portrait) {
+
+  #menu_secundario{
+
+    flex-direction:column ;
+  }
+
+  #secao_1{
+
+    flex-direction:column-reverse ;
+    text-align: center;
+  }
+
+  #titulo_2{
+
+    font-size: 5.5vw;
+  }
+
+  #img1{
+
+    width: 295px;
+  }
+
+  #secao_2{
+
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #img2{
+
+    width: 295px;
+  }
+
+  #titulo_3{
+
+    font-size: 5.5vw;
+  }
+
+  #secao_3_1{
+
+    flex-direction:column ;
+  }
+
+  #titulo_4{
+
+    font-size:5.5vw ;
+    margin-bottom: 20px;
+  }
+
+  #titulo_4_1, #titulo_4_2, #titulo_4_3{
+
+    font-size: ;
+    margin-bottom: 20px;
+  }
+
+  #img3{
+
+    width: 295px;
+  }
+
+  #img4{
+
+    width: 295px;
+  }
+
+  #titulo_5, #titulo_6{
+
+    font-size: 5.5vw;
+  }
+
+  #p1, #p2, #p3, #p4, #p5, #p6, #p7{
+
+    font-size: 4.0vw;
+  }
+
+}
